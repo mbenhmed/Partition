@@ -20,7 +20,7 @@ public class PartitionListTest {
 
 
     @InjectMocks
-    private PartitionList partitionList = new PartitionList();
+    private PartitionList partitionList ;
 
     @Test
     public void shouldReturnSameListWithMaxSize() throws NoAuthorizationSizeException {
